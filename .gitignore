@@ -22,7 +22,12 @@
 /reports/figures/*
 !/reports/figures/4-01-classroom-loss.png
 !/reports/figures/4-02-benchmark-scores.png
+!/reports/figures/4-03-gsm8k-extraction.png
+!/reports/figures/4-04-advanced-token-budget.png
 !/reports/figures/4-05-advanced-loss.png
+!/reports/figures/4-06-paired-benchmark-differences.png
+!/reports/figures/4-07-mmlu-domains.png
+!/reports/figures/4-08-ifeval-instruction-types.png
 
 # Documents, local settings, and generated files
 *.doc
