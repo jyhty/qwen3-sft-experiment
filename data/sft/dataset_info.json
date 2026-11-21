@@ -1,0 +1,62 @@
+{
+  "tulu3_3k": {
+    "file_name": "tulu3_train_3k.jsonl",
+    "formatting": "sharegpt",
+    "columns": {"messages": "messages"},
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "tulu3_10k": {
+    "file_name": "tulu3_train_10k.jsonl",
+    "formatting": "sharegpt",
+    "columns": {"messages": "messages"},
+    "tags": {
+      "role_tag": "role", "content_tag": "content", "user_tag": "user",
+      "assistant_tag": "assistant", "system_tag": "system"
+    }
+  },
+  "tulu3_deita_10k": {
+    "file_name": "tulu3_train_deita_10k.jsonl",
+    "formatting": "sharegpt",
+    "columns": {"messages": "messages"},
+    "tags": {
+      "role_tag": "role", "content_tag": "content", "user_tag": "user",
+      "assistant_tag": "assistant", "system_tag": "system"
+    }
+  },
+  "tulu3_30k": {
+    "file_name": "tulu3_train_30k.jsonl",
+    "formatting": "sharegpt",
+    "columns": {"messages": "messages"},
+    "tags": {
+      "role_tag": "role", "content_tag": "content", "user_tag": "user",
+      "assistant_tag": "assistant", "system_tag": "system"
+    }
+  },
+  "tulu3_advanced_val": {
+    "file_name": "tulu3_advanced_val_1k.jsonl",
+    "formatting": "sharegpt",
+    "columns": {"messages": "messages"},
+    "tags": {
+      "role_tag": "role", "content_tag": "content", "user_tag": "user",
+      "assistant_tag": "assistant", "system_tag": "system"
+    }
+  },
+  "tulu3_val": {
+    "file_name": "tulu3_val.jsonl",
+    "formatting": "sharegpt",
+    "columns": {"messages": "messages"},
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  }
+}

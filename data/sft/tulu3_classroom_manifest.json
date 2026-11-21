@@ -1,0 +1,62 @@
+{
+  "dataset": "allenai/tulu-3-sft-mixture",
+  "dataset_revision": "b14afda60f1bbebe55d5d2fa1e4df5042f97f8be",
+  "seed": 42,
+  "sampling": "Shuffle all six shards together, then select valid unique dialogues in shuffled order.",
+  "benchmark_filter": "Normalized exact user-message match against local MMLU, IFEval and GSM8K test prompts.",
+  "skipped_during_sampling": {
+    "exact_benchmark_prompt_match": 1,
+    "invalid_dialogue": 2,
+    "duplicate_id_or_dialogue_prompt": 2
+  },
+  "splits": {
+    "tulu3_train_3k.jsonl": {
+      "rows": 3000,
+      "sha256": "734554f842bfcaba9793fc58c4da60e3cd8054b17285cc11c96b8c298f75bf1c",
+      "source_counts": {
+        "ai2-adapt-dev/coconot_converted": 33,
+        "ai2-adapt-dev/evol_codealpaca_heval_decontaminated": 352,
+        "ai2-adapt-dev/flan_v2_converted": 281,
+        "ai2-adapt-dev/no_robots_converted": 23,
+        "ai2-adapt-dev/numinamath_tir_math_decontaminated": 213,
+        "ai2-adapt-dev/oasst1_converted": 27,
+        "ai2-adapt-dev/personahub_code_v2_34999": 108,
+        "ai2-adapt-dev/personahub_ifdata_manual_seed_v3_29980": 88,
+        "ai2-adapt-dev/personahub_math_v5_regen_149960": 495,
+        "ai2-adapt-dev/tulu_v3.9_aya_100k": 351,
+        "ai2-adapt-dev/tulu_v3.9_open_math_2_gsm8k_50k": 140,
+        "ai2-adapt-dev/tulu_v3.9_personahub_math_interm_algebra_20k": 48,
+        "ai2-adapt-dev/tulu_v3.9_sciriff_10k": 34,
+        "ai2-adapt-dev/tulu_v3.9_synthetic_finalresp_wildguardmixtrain_decontaminated_50k": 152,
+        "ai2-adapt-dev/tulu_v3.9_table_gpt_5k": 10,
+        "ai2-adapt-dev/tulu_v3.9_wildchat_100k": 308,
+        "ai2-adapt-dev/tulu_v3.9_wildjailbreak_decontaminated_50k": 157,
+        "allenai/tulu-3-sft-personas-math-grade": 180
+      }
+    },
+    "tulu3_val.jsonl": {
+      "rows": 300,
+      "sha256": "73c22c578f65caf522426efd0b749947a04c22fd5ffb4dc6e0d0e18cf95960cf",
+      "source_counts": {
+        "ai2-adapt-dev/coconot_converted": 3,
+        "ai2-adapt-dev/evol_codealpaca_heval_decontaminated": 34,
+        "ai2-adapt-dev/flan_v2_converted": 24,
+        "ai2-adapt-dev/no_robots_converted": 1,
+        "ai2-adapt-dev/numinamath_tir_math_decontaminated": 33,
+        "ai2-adapt-dev/oasst1_converted": 2,
+        "ai2-adapt-dev/personahub_code_v2_34999": 11,
+        "ai2-adapt-dev/personahub_ifdata_manual_seed_v3_29980": 8,
+        "ai2-adapt-dev/personahub_math_v5_regen_149960": 39,
+        "ai2-adapt-dev/tulu_v3.9_aya_100k": 37,
+        "ai2-adapt-dev/tulu_v3.9_open_math_2_gsm8k_50k": 24,
+        "ai2-adapt-dev/tulu_v3.9_personahub_math_interm_algebra_20k": 4,
+        "ai2-adapt-dev/tulu_v3.9_sciriff_10k": 2,
+        "ai2-adapt-dev/tulu_v3.9_synthetic_finalresp_wildguardmixtrain_decontaminated_50k": 9,
+        "ai2-adapt-dev/tulu_v3.9_table_gpt_5k": 4,
+        "ai2-adapt-dev/tulu_v3.9_wildchat_100k": 35,
+        "ai2-adapt-dev/tulu_v3.9_wildjailbreak_decontaminated_50k": 18,
+        "allenai/tulu-3-sft-personas-math-grade": 12
+      }
+    }
+  }
+}

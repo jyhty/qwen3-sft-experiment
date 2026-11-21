@@ -1,0 +1,93 @@
+{
+  "dataset": "allenai/tulu-3-sft-mixture",
+  "dataset_revision": "b14afda60f1bbebe55d5d2fa1e4df5042f97f8be",
+  "seed": 42,
+  "classroom_validation_excluded": {
+    "file": "tulu3_val.jsonl",
+    "rows": 300,
+    "sha256": "73c22c578f65caf522426efd0b749947a04c22fd5ffb4dc6e0d0e18cf95960cf"
+  },
+  "benchmark_filter": "Same normalized exact benchmark prompt check as the classroom split.",
+  "skipped_during_30k_sampling": {
+    "exact_benchmark_prompt_match": 3,
+    "invalid_dialogue": 21,
+    "duplicate_id_or_dialogue_prompt": 503
+  },
+  "subset_strata": {
+    "columns": [
+      "source",
+      "input_tokens",
+      "supervised_tokens"
+    ],
+    "input_boundaries": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "supervised_boundaries": [
+      128,
+      512
+    ]
+  },
+  "splits": {
+    "tulu3_train_10k.jsonl": {
+      "rows": 10000,
+      "sha256": "2bc20463afdaf5f576b119ff315ce3dfbb6ff0c6658097698ed17437961e0d93",
+      "epochs": 3,
+      "source_counts": {
+        "ai2-adapt-dev/coconot_converted": 111,
+        "ai2-adapt-dev/evol_codealpaca_heval_decontaminated": 1164,
+        "ai2-adapt-dev/flan_v2_converted": 969,
+        "ai2-adapt-dev/no_robots_converted": 94,
+        "ai2-adapt-dev/numinamath_tir_math_decontaminated": 694,
+        "ai2-adapt-dev/oasst1_converted": 79,
+        "ai2-adapt-dev/personahub_code_v2_34999": 364,
+        "ai2-adapt-dev/personahub_ifdata_manual_seed_v3_29980": 328,
+        "ai2-adapt-dev/personahub_math_v5_regen_149960": 1580,
+        "ai2-adapt-dev/tulu_hard_coded_repeated_10": 1,
+        "ai2-adapt-dev/tulu_v3.9_aya_100k": 1073,
+        "ai2-adapt-dev/tulu_v3.9_open_math_2_gsm8k_50k": 506,
+        "ai2-adapt-dev/tulu_v3.9_personahub_math_interm_algebra_20k": 207,
+        "ai2-adapt-dev/tulu_v3.9_sciriff_10k": 100,
+        "ai2-adapt-dev/tulu_v3.9_synthetic_finalresp_wildguardmixtrain_decontaminated_50k": 525,
+        "ai2-adapt-dev/tulu_v3.9_table_gpt_5k": 52,
+        "ai2-adapt-dev/tulu_v3.9_wildchat_100k": 1048,
+        "ai2-adapt-dev/tulu_v3.9_wildjailbreak_decontaminated_50k": 550,
+        "allenai/tulu-3-sft-personas-math-grade": 555
+      },
+      "length_cutoff_rows": 482,
+      "input_tokens": 6430522,
+      "supervised_tokens": 4445713
+    },
+    "tulu3_train_30k.jsonl": {
+      "rows": 30000,
+      "sha256": "78a12def53fec511cc4c0d2e954742cd092e0f1003886758a74ddffbba35993e",
+      "epochs": 1,
+      "source_counts": {
+        "ai2-adapt-dev/coconot_converted": 333,
+        "ai2-adapt-dev/evol_codealpaca_heval_decontaminated": 3490,
+        "ai2-adapt-dev/flan_v2_converted": 2908,
+        "ai2-adapt-dev/no_robots_converted": 279,
+        "ai2-adapt-dev/numinamath_tir_math_decontaminated": 2079,
+        "ai2-adapt-dev/oasst1_converted": 238,
+        "ai2-adapt-dev/personahub_code_v2_34999": 1093,
+        "ai2-adapt-dev/personahub_ifdata_manual_seed_v3_29980": 984,
+        "ai2-adapt-dev/personahub_math_v5_regen_149960": 4743,
+        "ai2-adapt-dev/tulu_hard_coded_repeated_10": 5,
+        "ai2-adapt-dev/tulu_v3.9_aya_100k": 3218,
+        "ai2-adapt-dev/tulu_v3.9_open_math_2_gsm8k_50k": 1518,
+        "ai2-adapt-dev/tulu_v3.9_personahub_math_interm_algebra_20k": 622,
+        "ai2-adapt-dev/tulu_v3.9_sciriff_10k": 303,
+        "ai2-adapt-dev/tulu_v3.9_synthetic_finalresp_wildguardmixtrain_decontaminated_50k": 1571,
+        "ai2-adapt-dev/tulu_v3.9_table_gpt_5k": 153,
+        "ai2-adapt-dev/tulu_v3.9_wildchat_100k": 3143,
+        "ai2-adapt-dev/tulu_v3.9_wildjailbreak_decontaminated_50k": 1651,
+        "allenai/tulu-3-sft-personas-math-grade": 1669
+      },
+      "length_cutoff_rows": 1449,
+      "input_tokens": 19332565,
+      "supervised_tokens": 13412290
+    }
+  }
+}

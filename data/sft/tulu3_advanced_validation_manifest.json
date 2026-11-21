@@ -1,0 +1,38 @@
+{
+  "dataset": "allenai/tulu-3-sft-mixture",
+  "dataset_revision": "b14afda60f1bbebe55d5d2fa1e4df5042f97f8be",
+  "seed": 43,
+  "file": "tulu3_advanced_val_1k.jsonl",
+  "rows": 1000,
+  "sha256": "19a0a097dacd78c40a09dab66f07049d29e99b4c4c5b0b1a4aab29a3023305b3",
+  "excluded_files": [
+    "tulu3_train_3k.jsonl",
+    "tulu3_train_10k.jsonl",
+    "tulu3_train_30k.jsonl",
+    "tulu3_val.jsonl"
+  ],
+  "skipped_during_sampling": {
+    "duplicate_id_or_dialogue_prompt": 47
+  },
+  "benchmark_filter": "Same normalized exact benchmark prompt check as the classroom split.",
+  "source_counts": {
+    "ai2-adapt-dev/coconot_converted": 13,
+    "ai2-adapt-dev/evol_codealpaca_heval_decontaminated": 129,
+    "ai2-adapt-dev/flan_v2_converted": 91,
+    "ai2-adapt-dev/no_robots_converted": 10,
+    "ai2-adapt-dev/numinamath_tir_math_decontaminated": 66,
+    "ai2-adapt-dev/oasst1_converted": 10,
+    "ai2-adapt-dev/personahub_code_v2_34999": 30,
+    "ai2-adapt-dev/personahub_ifdata_manual_seed_v3_29980": 35,
+    "ai2-adapt-dev/personahub_math_v5_regen_149960": 169,
+    "ai2-adapt-dev/tulu_v3.9_aya_100k": 93,
+    "ai2-adapt-dev/tulu_v3.9_open_math_2_gsm8k_50k": 59,
+    "ai2-adapt-dev/tulu_v3.9_personahub_math_interm_algebra_20k": 23,
+    "ai2-adapt-dev/tulu_v3.9_sciriff_10k": 9,
+    "ai2-adapt-dev/tulu_v3.9_synthetic_finalresp_wildguardmixtrain_decontaminated_50k": 42,
+    "ai2-adapt-dev/tulu_v3.9_table_gpt_5k": 1,
+    "ai2-adapt-dev/tulu_v3.9_wildchat_100k": 107,
+    "ai2-adapt-dev/tulu_v3.9_wildjailbreak_decontaminated_50k": 49,
+    "allenai/tulu-3-sft-personas-math-grade": 64
+  }
+}

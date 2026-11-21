@@ -1,0 +1,46 @@
+# Recreated locally
+/.conda/
+/.venv/
+/.cache/
+/models/
+/outputs/
+/data/raw/
+/data/benchmarks/
+/data/sft/*
+!/data/sft/dataset_info.json
+!/data/sft/tulu3_*manifest.json
+
+# Local exploration and drafts
+/configs/*deita*.yaml
+/scripts/*deita*.py
+/PLAN.md
+/CLASSROOM_TRAINING.md
+/ADVANCED_COMPARISON.md
+/EVALUATION_AND_RUN.md
+/reports/*
+!/reports/figures/
+/reports/figures/*
+!/reports/figures/4-01-classroom-loss.png
+!/reports/figures/4-02-benchmark-scores.png
+!/reports/figures/4-05-advanced-loss.png
+
+# Documents, local settings, and generated files
+*.doc
+*.docx
+*.pdf
+*.zip
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.parquet
+*.jsonl
+*.log
+/.aws/
+/.agents/
+/.codex/
+/.env
+/.env.*
+__pycache__/
+*.py[cod]
+.DS_Store
